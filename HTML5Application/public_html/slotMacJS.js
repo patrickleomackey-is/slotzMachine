@@ -3,9 +3,9 @@
 //BETs = document.getElementsByID('BET').onSubmit;
 
  const WHEEL =['Orange','Melon','Bar','Cherry','Bell','Plum'];
-document.write("<br>" + WHEEL);
+document.write("<br>" + spin());
 
-
+document.write(spin());
 document.write(spin());
 
 
