@@ -1,11 +1,12 @@
 /* Patrick L. Mackey CIS 119 Prof. K. Miller
  */
-BETs = document.getElementsByID('BET').onSubmit;
+//BETs = document.getElementsByID('BET').onSubmit;
 
-const WHEEL =['Orange','Melon','Bar','Cherry','Bell','Plum'];
+ const WHEEL =['Orange','Melon','Bar','Cherry','Bell','Plum'];
+document.write("<br>" + WHEEL);
 
 
-
+document.write(spin());
 
 
 function spin()
