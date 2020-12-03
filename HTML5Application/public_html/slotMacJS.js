@@ -1,12 +1,16 @@
 /* Patrick L. Mackey CIS 119 Prof. K. Miller
  */
 //BETs = document.getElementsByID('BET').onSubmit;
-
+//T= document.getElementById(T);
+/*global globalMessage*/
  const WHEEL =['Orange','Melon','Bar','Cherry','Bell','Plum'];
-document.write("<br>" + spin());
+wheel1=spin(1);
+wheel2=spin(2);
+wheel3=spin(3);
+document.write("<br>" + wheel1);
+document.write(wheel2);
+document.write(wheel3);
 
-document.write(spin());
-document.write(spin());
 
 
 function spin()
@@ -28,3 +32,12 @@ function spin()
 }
 
 
+function comptor(){
+   wager = document.getElementByID("T").value; 
+    
+ //   if ((spin(1)=== spin(2))&&(spin(1)=== spin(3)));
+    //winnings = wager*3;
+    
+    document.write(wager);    
+}
+;
