@@ -4,13 +4,23 @@
 //T= document.getElementById(T);
 /*global globalMessage*/
  const WHEEL =['Orange','Melon','Bar','Cherry','Bell','Plum'];
+
+
+function wheel()
+{
+BET = document.getElementById('B').innerHTML;
 wheel1=spin(1);
 wheel2=spin(2);
 wheel3=spin(3);
+ if ((wheel1 === wheel2)&&(wheel1 === wheel3))
+     result = BET*3;
+ if ((wheel1 === wheel2)||(wheel1 === wheel3)||(wheel2 === wheel3))
+   result = BET*2;
 document.write("<br>" + wheel1);
 document.write(wheel2);
 document.write(wheel3);
 
+};
 
 
 function spin()
@@ -31,13 +41,7 @@ function spin()
    return Spin;
 }
 
-
-function comptor(){
-   wager = document.getElementByID("T").value; 
-    
- //   if ((spin(1)=== spin(2))&&(spin(1)=== spin(3)));
-    //winnings = wager*3;
-    
-    document.write(wager);    
+function fu(){
+    bet = document.getElementById('B').value;
+    document.write(bet);
 }
-;
