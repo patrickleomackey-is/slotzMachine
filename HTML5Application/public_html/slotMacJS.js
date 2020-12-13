@@ -61,7 +61,7 @@ function spin()
    return Spin;
 }
 
-function fu(){
+function foo(){
     bet = document.getElementById('B').value;
     document.write(bet);
 }
