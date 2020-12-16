@@ -2,17 +2,17 @@
  */
 //BETs = document.getElementsByID('BET').onSubmit;
 //T= document.getElementById(T);
-/*global globalMessage*/
- var WHEEL =['orange.jpg','melon.jpg','bar.jpg','cherry.jpg','bell.jpg','plum.jpg'];
+/*global globalMessage, WHEEL*/
+const WHEEL =["<img src='orange.jpg'/>","<img src='melon.jpg'/>","<img src='bar.jpg'/>","<img src ='cherry.jpg'/>","<img src ='bell.jpg'/>","<img src='plum.jpg'/>"];
 let winnings;
 
 
 
 
 
-function winns(){
-    document.write(window.content.localstorage[winnings]);
-}
+//function winns(){
+//    document.write(window.content.localstorage[winnings]);
+//}
 
 function getbet()
 {
