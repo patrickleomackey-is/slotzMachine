@@ -3,7 +3,7 @@
 //BETs = document.getElementsByID('BET').onSubmit;
 //T= document.getElementById(T);
 /*global globalMessage*/
- const WHEEL =['Orange','Melon','Bar','Cherry','Bell','Plum'];
+ var WHEEL =['orange.jpg','melon.jpg','bar.jpg','cherry.jpg','bell.jpg','plum.jpg'];
 let winnings;
 
 
